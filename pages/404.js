@@ -12,17 +12,17 @@ export default function Home() {
     <div className="flex flex-col min-h-screen py-4 bg-black">
       <Head>
         <title>Paras 2.0 - Coming Soon</title>
-        <meta name="title" content={`${title} - Comics by Paras`} />
+        <meta name="title" content={title} />
         <meta name="description" content={description} />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={url} />
-        <meta property="og:title" content={`${title} - Comics by Paras`} />
+        <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:image" content={image} />
         <meta name="robots" content="index, follow" />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content={url} />
-        <meta property="twitter:title" content={`${title} - Comics by Paras`} />
+        <meta property="twitter:title" content={title} />
         <meta property="twitter:description" content={description} />
         <meta property="twitter:image" content={image} />
         <link rel="icon" href="/favicon.ico" />
